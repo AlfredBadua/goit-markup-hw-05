@@ -771,8 +771,8 @@ background: var(--background-body);
 
 .modal-close {
   position: absolute;
-  top: 8px;
-  right: 8px;
+  top: 24px;
+  right: 24px;
   padding: 0;
   display: flex;
   justify-content: center;
@@ -797,7 +797,7 @@ background: var(--background-body);
 .modal-close:hover,
 .modal-close:focus {
   background-color: var(--background-hero-button);
-  color: var(--white);
+  color: var(--hero-title);
 }
 
 .is-hidden {
